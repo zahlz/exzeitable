@@ -117,7 +117,7 @@ defmodule Exzeitable.MixProject do
       {:telemetry_poller, "~> 1.1"},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"},
+      {:plug_cowboy, "~> 2.5", only: :test},
       {:timex, "~> 3.5", only: [:dev, :test, :systemtest]},
       {:ex_check, "~>0.12", only: :test, runtime: false},
       {:credo, "~> 1.5", only: :test, runtime: false},
